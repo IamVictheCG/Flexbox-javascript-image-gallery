@@ -92,6 +92,10 @@ body {
   font-size: 2em;
 }
 
+.panel.open {
+  flex: 5;
+}
+
 .panel p:nth-child(2) {
   font-size: 4em;
 }
