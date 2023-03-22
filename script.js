@@ -14,7 +14,7 @@ function toggleActive(e) {
 
 function name(e) {
     panels.forEach(panel => {
-        if (e.property) {
+        if (e.propertyName.includes) {
             panel.classList.remove('open')
         }
     })
