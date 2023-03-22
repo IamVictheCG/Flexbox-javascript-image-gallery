@@ -22,6 +22,7 @@ function removeClass(e) {
 
 panels.forEach(panel => {
     panel.addEventListener('click', toggleActive)
+    panel.addEventListener('click', toggleActive)
     panel.addEventListener('transitionend', toggleActive)
 })
 // return activePanel
