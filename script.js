@@ -26,6 +26,4 @@ panels.forEach(panel => {
     panel.addEventListener('click', removeClass)
     // panel.addEventListener('transitionend', toggleActive)
 })
-// return activePanel
-
-// f 
+// return activePan
