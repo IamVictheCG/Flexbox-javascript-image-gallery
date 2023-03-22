@@ -14,7 +14,7 @@ function toggleActive(e) {
 
 function name(e) {
     panels.forEach(panel => {
-        if (panel == this) {
+        if (e== this) {
             panel.classList.remove('open')
         }
     })
