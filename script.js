@@ -28,12 +28,12 @@ panels.forEach(panel => {
 })
 // return activePanel
 
-function removeClass(e) {
-    panels.forEach(panel => {
-        if (panel.propertyName.includes('flex')) {
-            this.classList.toggle('open')
-            // panel.classList.remove('open-active')
-            this.addEventListener('transitionend', toggleOpenActive)
-        }
-    })
-}
+// function removeClass(e) {
+//     panels.forEach(panel => {
+//         if (panel.propertyName.includes('flex')) {
+//             this.classList.toggle('open')
+//             // panel.classList.remove('open-active')
+//             this.addEventListener('transitionend', toggleOpenActive)
+//         }
+//     })
+// }
