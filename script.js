@@ -12,7 +12,7 @@ function toggleActive(e) {
     })
 }
 
-function name(e) {
+function (e) {
     panels.forEach(panel => {
         if (e.propertyName.includes('flex')) {
             panel.classList.remove('open')
